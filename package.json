@@ -1,0 +1,27 @@
+{
+  "name": "vue-basic-server",
+  "version": "0.1.0",
+  "description": "Basic server template that runs express and connect-history-api-fallback and serves vue from dist/",
+  "main": "index.js",
+  "scripts": {
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Halceyon/vue-basic-server.git"
+  },
+  "keywords": [
+    "vue",
+    "node"
+  ],
+  "author": "craigp@codehq.co.za",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Halceyon/vue-basic-server/issues"
+  },
+  "homepage": "https://github.com/Halceyon/vue-basic-server#readme",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1"
+  }
+}
